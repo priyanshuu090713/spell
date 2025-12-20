@@ -1,0 +1,4 @@
+#startfile;
+says "hello";
+$$comment check
+#endfile;

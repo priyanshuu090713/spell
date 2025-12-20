@@ -1,0 +1,14 @@
+# Command definitions
+# {args} will be replaced by everything after the command
+
+install = "winget install {args}"
+delete  = "winget remove {args}"
+remove  = "winget uninstall {args}"
+update  = "winget upgrade --all"
+list    = "winget list"
+says    = "echo {args}"
+wpyr    = "python {args}"
+pipins  = "pip install {args}"
+pipun   = "pip uninstall {args}"
+pipup   = "pip install --upgrade {args}"
+pipupall = "pip install --upgrade --all"

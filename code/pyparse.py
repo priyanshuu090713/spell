@@ -42,7 +42,6 @@ def parse(text):
 
     return cms
 
-
 # -------------------------------
 # Translate to PowerShell
 # -------------------------------
@@ -65,7 +64,6 @@ def translate(cms):
             pwshcmd.append(template)
 
     return pwshcmd
-
 
 # -------------------------------
 # Write PowerShell file
@@ -93,7 +91,6 @@ def execute():
         ]
     )
 
-
 # -------------------------------
 # Main
 # -------------------------------
@@ -119,7 +116,7 @@ def main():
     except Exception as e:
         print("Error:", e)
 
-
 if __name__ == "__main__":
     main()
+
 # ver 0.1.0 bf proto

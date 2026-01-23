@@ -14,7 +14,7 @@ with open("cmddict.toml", "rb") as f:
 # Parse .mtr file
 # -------------------------------
 def parse(text):
-    lines = text.split(";")
+    lines = text.split(".")
     in_code = False
     cms = []
 
@@ -34,8 +34,8 @@ def parse(text):
         if not in_code:
             continue
 
-        # remove $$ comments
-        line = line.split("$$")[0].strip()
+        # remove $ comments
+        line = line.split("$")[0].strip()
 
         if line:
             cms.append(line)

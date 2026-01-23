@@ -1,4 +1,3 @@
-#startfile;
-says "hello";
-$$comment check
-#endfile;
+#startfile.
+says "hello". $comment check
+#endfile.

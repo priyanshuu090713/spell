@@ -101,7 +101,7 @@ def main():
 
     filename = sy.argv[1]
 
-    if not filename.endswith(".mtr"):
+    if not filename.endswith(".spsh"):
         print("Error: input file must have .mtr extension")
         return
 
@@ -119,4 +119,4 @@ def main():
 if __name__ == "__main__":
     main()
 
-# ver 0.1.0 bf proto
+# ver 1.0.0 

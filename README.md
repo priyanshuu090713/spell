@@ -1,11 +1,11 @@
-# pyparse 
+# spell
 the beginers shell language thst works anywhere
 ## use
 this is a beginers language for shell with consise english and one-word commands that are meant to be a help.
 ### execution
 the execution is as follows:
 ```shell
-python pyparse.py <NAME OF THE FILE>.mtr
+python spell.py <NAME OF THE FILE>.mtr
 # to note that mtr is necesary and is the file extension
 ```
 works in any shell and any os with a python version ahead of 3.11 
@@ -21,7 +21,7 @@ files should start with ```#startfile.``` should end with ```#endfile.``` ,  the
 contents in between
 this is done to prevent the trecherous python ```"""docstring""" ``` and the ``` /* multi line comment */```
 a basic script may look like :
-```mtr
+```spsh
 #startfile.
 says "hello world".
 #endfile.
@@ -56,7 +56,7 @@ for more info , i dont have any resources rn .
 
 ---
 
-this is it for ver 0.1.0 bf proto. cya ^_____^
+this is it for ver 1.0.0 as of most recently. cya ^_____^ 
 
 ---
 

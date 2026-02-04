@@ -5,7 +5,7 @@ this is a beginers language for shell with consise english and one-word commands
 ### execution
 the execution is as follows:
 ```shell
-python spell.py <NAME OF THE FILE>.mtr
+python spell.py <NAME OF THE FILE>.spsh
 # to note that mtr is necesary and is the file extension
 ```
 works in any shell and any os with a python version ahead of 3.11 

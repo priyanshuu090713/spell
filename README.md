@@ -59,6 +59,8 @@ for more info , i dont have any resources rn .
 this is it for ver 1.0.0 as of most recently. cya ^_____^ 
 
 ---
+hey , so this repo is dead , if anyone wants to claim it or make it better , you can . dont forget me 
+
 
 ##release codes
 
